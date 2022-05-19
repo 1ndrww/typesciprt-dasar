@@ -1,0 +1,17 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "del -rf build/ && tsc",
+    "ts": "del -f build && tsc -w",
+    "dev" : "nodemon ./build/function.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.6.3"
+  }
+}

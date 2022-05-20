@@ -18,3 +18,8 @@ testAny = "string"
 testAny = true
 testAny = []
 testAny = {}
+
+// union
+let phone : number | string;
+phone = 628345345
+phone = "082312323"

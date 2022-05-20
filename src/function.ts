@@ -29,3 +29,12 @@ const Add : Tambah = (val1:number,val2:number) :number =>{
    return val1 * val2;
 }
 console.log(Add(2,5))
+
+//default paramater
+const multiply_default_paramter = (val1 :number, val2:number = 123) : number =>{
+   return val1 * val2
+}
+//optional paramater
+const multiply_optional_paramter = (val1 :string, val2?:string) : string =>{
+   return val1 + val2;
+}
